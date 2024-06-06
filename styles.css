@@ -1,0 +1,143 @@
+
+      body {
+        margin: 50px;
+        background-color: #f1f1f1;
+      }
+
+      .cart {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .project-cart {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 67px;
+      }
+
+      .project-image {
+        width: 100%;
+        height: auto;
+      }
+
+      .project-title {
+        margin: 16px 0;
+        font-size: 24px;
+        color: #333;
+      }
+
+      .project-description {
+        margin: 0 16px 16px;
+        font-size: 16px;
+        color: #555;
+      }
+
+      .button-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 16px;
+        background-color: #f9f9f9;
+      }
+
+      .button {
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        transition: background-color 0.3s;
+        padding: 7px;
+      }
+
+      .see-more {
+        background-color: #941e2d;
+      }
+
+      .git {
+        background-color: #941e2d;
+      }
+
+      .bash {
+        background-color: #941e2d;
+      }
+
+      .linux {
+        background-color: #941e2d;
+      }
+
+      .button:hover {
+        opacity: 0.8;
+      }
+
+      /* styles.css */
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+      }
+
+      .nav_left p {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .nav_right ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .nav_right li {
+        margin-left: 20px;
+        cursor: pointer;
+        transition: color 0.3s;
+        font-size: 1.2rem;
+      }
+
+      .nav_right li:hover {
+        color: #1e1616;
+        font-size: 1.3rem;
+      }
+
+      .hero {
+        display: flex;
+        margin-bottom: 30px;
+      }
+
+      .hero img {
+        width: 50px;
+        height: 50px;
+        background-color: #941e2d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        margin-right: 20px;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .hero img {
+        animation: rotate 5s linear infinite;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+   
