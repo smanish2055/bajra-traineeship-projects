@@ -1,8 +1,13 @@
 body {
-  margin: 50px;
+  /* margin: 50px; */
   background-color: #f1f1f1;
 }
-html{
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
   scroll-behavior: smooth;
 }
 
@@ -11,7 +16,7 @@ html{
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  margin-bottom: 30px;
+  margin: 30px;
 }
 
 .nav_left p {
@@ -25,10 +30,8 @@ html{
   margin: 0;
   padding: 0;
   list-style: none;
- 
-  
 }
-.nav_right ul li a{
+.nav_right ul li a {
   text-decoration: none;
 }
 
@@ -145,4 +148,18 @@ html{
 
 .button:hover {
   opacity: 0.8;
+}
+
+footer {
+  background-color: #ddd;
+}
+.footer_content {
+  display: flex;
+  justify-content: center;
+}
+.footer_content a img {
+  width: 60px;
+  height: 55px;
+  margin: 30px;
+  border-radius: 30%;
 }
